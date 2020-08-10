@@ -81,6 +81,29 @@ img {
   margin-right: auto;
 }
 
+.nav-line {
+  width: 78px;
+  height: 4px;
+  background: #2196F3;
+  border-radius: 2px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: translateY(-100%);
+}
+
+.nav-box {
+  position: relative;
+}
+
+.nav-box:hover .nav-line {
+  transform: translateY(0);
+}
+
 .logo {
   margin-right: 85px;
 }
@@ -592,8 +615,26 @@ img {
   font-size: 18px;
   line-height: 1.556;
   color: var(--accent-color-white);
+  margin: 0;
+  padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  transform: translatey(100%);
+  transition: transform 250ms ease;
+}
+
+.project-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-box:hover .project-description {
+  transform: translatey(0);
 }
 
 .project-item:hover,
