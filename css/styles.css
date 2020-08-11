@@ -53,7 +53,6 @@ img {
 }
 
 .page-header {
-  padding: 24px 0px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -77,35 +76,24 @@ img {
 
 .navigation {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin-right: auto;
+  
 }
 
-/*.nav-line {
-  width: 78px;
-  height: 4px;
-  background: #2196F3;
-  border-radius: 2px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
+.current::after {
+  display: block;
+  content: "";
   width: 100%;
-  height: 100%;
-
-  transform: translateY(-100%);
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  margin-top: 28px;
 }
-
-.nav-box {
-  position: relative;
-}
-
-.nav-box:hover .nav-line {
-  transform: translateY(0);
-}*/
 
 .logo {
   margin-right: 85px;
+  padding: 24px 0 24px;
 }
 
 .list {
@@ -156,6 +144,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-color);
+  margin: 0;
 }
 
 .mail-link,
