@@ -683,6 +683,8 @@ img {
 }
 
 .modal {
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -692,4 +694,17 @@ img {
   min-height: 581px;
 
   background-color: var(--accent-color-white);
+  border-radius: 4px;
+}
+
+.btn-close {
+  display: block;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
 }
