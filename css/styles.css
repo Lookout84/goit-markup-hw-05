@@ -699,6 +699,9 @@ img {
 
 .btn-close {
   display: block;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
   border-radius: 50px;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
