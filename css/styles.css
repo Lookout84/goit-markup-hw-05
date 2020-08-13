@@ -26,14 +26,6 @@ body  {
   letter-spacing: 0.03em;
 }
 
-/*.social-item a:focus,
-.clients-item a:focus,
-.social-footer-link a:focus,
-.project-item a:focus,
-.project-btn:focus {
-  outline: none;
-}*/
-
 img {
   display: block;
   max-width: 100%;
