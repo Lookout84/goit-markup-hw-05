@@ -26,6 +26,14 @@ body  {
   letter-spacing: 0.03em;
 }
 
+.social-item a:focus,
+.clients-item a:focus,
+.social-footer-link a:focus,
+.project-item a:focus,
+.project-btn:focus {
+  outline: none;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -92,8 +100,7 @@ img {
 }
 
 .logo {
-  margin-right: 85px;
-  padding: 24px 0 24px;
+  margin: 24px 85px 0 24px;
 }
 
 .list {
@@ -417,12 +424,6 @@ img {
 .clients-item:hover .clients-icon,
 .clients-item:focus-within .clients-icon {
   fill: var(--accent-color);
-}
-
-.social-item a:focus,
-.clients-item a:focus,
-.social-footer-link a:focus {
-  outline: none;
 }
 
 .address {
