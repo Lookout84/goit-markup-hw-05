@@ -155,11 +155,13 @@ img {
   text-decoration: none;
   color: var(--main-color);
   margin: 0;
+  transition: color var(--time-transition-duration) var(--timing-function-cubic);
 }
 
 .mail-link,
 .phone-link {
   color: var(--grey-text-color);
+  transition: color var(--time-transition-duration) var(--timing-function-cubic);
 }
 
 .mail-link {
@@ -527,6 +529,7 @@ img {
   font-size: 14px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  transition: color var(--time-transition-duration) var(--timing-function-cubic);
 }
 
 .addr-footer {
