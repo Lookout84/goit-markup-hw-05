@@ -510,7 +510,7 @@ img {
 
 .social-footer-item {
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color var(--time-transition-duration) var(--timing-function-cubic)
+  transition: background-color var(--time-transition-duration) var(--timing-function-cubic);
 }
 
 .social-footer-link:not(:last-child) {
