@@ -132,7 +132,7 @@ img {
   fill: var(--grey-text-color);
   vertical-align: middle;
 
-  transition: fill var(--time-transition-duration) var(--timing-function-cubic):
+  transition: fill var(--time-transition-duration) var(--timing-function-cubic);
 }
 
 .mail-link:hover .contacts-icon,
